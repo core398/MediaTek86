@@ -1,6 +1,6 @@
 ﻿namespace MediaTek86.vue
 {
-    partial class frmPrincipal
+    partial class FrmPrincipal
     {
         /// <summary>
         /// Required designer variable.
@@ -29,16 +29,16 @@
         private void InitializeComponent()
         {
             this.lvwPersonnel = new System.Windows.Forms.ListView();
-            this.label1 = new System.Windows.Forms.Label();
-            this.btnAjouter = new System.Windows.Forms.Button();
-            this.btnModifier = new System.Windows.Forms.Button();
-            this.btnSupprimer = new System.Windows.Forms.Button();
-            this.btnGererAbsences = new System.Windows.Forms.Button();
             this.columnHeader1 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.columnHeader2 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.columnHeader3 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.columnHeader4 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.columnHeader5 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.label1 = new System.Windows.Forms.Label();
+            this.btnAjouter = new System.Windows.Forms.Button();
+            this.btnModifier = new System.Windows.Forms.Button();
+            this.btnSupprimer = new System.Windows.Forms.Button();
+            this.btnGererAbsences = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // lvwPersonnel
@@ -58,6 +58,26 @@
             this.lvwPersonnel.TabIndex = 0;
             this.lvwPersonnel.UseCompatibleStateImageBehavior = false;
             this.lvwPersonnel.View = System.Windows.Forms.View.Details;
+            // 
+            // columnHeader1
+            // 
+            this.columnHeader1.Text = "Nom";
+            // 
+            // columnHeader2
+            // 
+            this.columnHeader2.Text = "Prénom";
+            // 
+            // columnHeader3
+            // 
+            this.columnHeader3.Text = "Téléphone";
+            // 
+            // columnHeader4
+            // 
+            this.columnHeader4.Text = "Mail";
+            // 
+            // columnHeader5
+            // 
+            this.columnHeader5.Text = "Service";
             // 
             // label1
             // 
@@ -105,27 +125,7 @@
             this.btnGererAbsences.Text = "Gérer les absences";
             this.btnGererAbsences.UseVisualStyleBackColor = true;
             // 
-            // columnHeader1
-            // 
-            this.columnHeader1.Text = "Nom";
-            // 
-            // columnHeader2
-            // 
-            this.columnHeader2.Text = "Prénom";
-            // 
-            // columnHeader3
-            // 
-            this.columnHeader3.Text = "Téléphone";
-            // 
-            // columnHeader4
-            // 
-            this.columnHeader4.Text = "Mail";
-            // 
-            // columnHeader5
-            // 
-            this.columnHeader5.Text = "Service";
-            // 
-            // frmPrincipal
+            // FrmPrincipal
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -136,8 +136,13 @@
             this.Controls.Add(this.btnAjouter);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.lvwPersonnel);
-            this.Name = "frmPrincipal";
+            this.Name = "FrmPrincipal";
             this.Text = "frmPrincipal";
+            this.Load += new System.EventHandler(this.FrmPrincipal_Load);
+            this.btnAjouter.Click += new System.EventHandler(this.btnAjouter_Click);
+            this.btnModifier.Click += new System.EventHandler(this.btnModifier_Click);
+            this.btnSupprimer.Click += new System.EventHandler(this.btnSupprimer_Click);
+            this.btnGererAbsences.Click += new System.EventHandler(this.btnGererAbsences_Click);
             this.ResumeLayout(false);
             this.PerformLayout();
 

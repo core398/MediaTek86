@@ -3,7 +3,7 @@
     /// <summary>
     /// Classe représentant un personnel de la médiathèque
     /// </summary>
-    class Personnel
+    public class Personnel
     {
         /// <summary>
         /// Identifiant du personnel

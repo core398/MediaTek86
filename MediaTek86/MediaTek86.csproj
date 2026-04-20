@@ -110,17 +110,29 @@
     <Compile Include="vue\FrmAbsences.Designer.cs">
       <DependentUpon>FrmAbsences.cs</DependentUpon>
     </Compile>
+    <Compile Include="vue\FrmAjoutAbsence.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="vue\FrmAjoutAbsence.Designer.cs">
+      <DependentUpon>FrmAjoutAbsence.cs</DependentUpon>
+    </Compile>
+    <Compile Include="vue\FrmAjoutPersonnel.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="vue\FrmAjoutPersonnel.Designer.cs">
+      <DependentUpon>FrmAjoutPersonnel.cs</DependentUpon>
+    </Compile>
     <Compile Include="vue\FrmConnexion.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="vue\FrmConnexion.Designer.cs">
       <DependentUpon>FrmConnexion.cs</DependentUpon>
     </Compile>
-    <Compile Include="vue\frmPrincipal.cs">
+    <Compile Include="vue\FrmPrincipal.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="vue\frmPrincipal.Designer.cs">
-      <DependentUpon>frmPrincipal.cs</DependentUpon>
+    <Compile Include="vue\FrmPrincipal.Designer.cs">
+      <DependentUpon>FrmPrincipal.cs</DependentUpon>
     </Compile>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -134,11 +146,17 @@
     <EmbeddedResource Include="vue\FrmAbsences.resx">
       <DependentUpon>FrmAbsences.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="vue\FrmAjoutAbsence.resx">
+      <DependentUpon>FrmAjoutAbsence.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="vue\FrmAjoutPersonnel.resx">
+      <DependentUpon>FrmAjoutPersonnel.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="vue\FrmConnexion.resx">
       <DependentUpon>FrmConnexion.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="vue\frmPrincipal.resx">
-      <DependentUpon>frmPrincipal.cs</DependentUpon>
+    <EmbeddedResource Include="vue\FrmPrincipal.resx">
+      <DependentUpon>FrmPrincipal.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">

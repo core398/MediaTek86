@@ -5,7 +5,7 @@ namespace MediaTek86.modele
     /// <summary>
     /// Classe représentant une absence d'un personnel
     /// </summary>
-    class Absence
+    public class Absence
     {
         /// <summary>
         /// Identifiant de l'absence

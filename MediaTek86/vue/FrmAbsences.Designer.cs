@@ -30,13 +30,13 @@
         {
             this.label1 = new System.Windows.Forms.Label();
             this.lvwAbsences = new System.Windows.Forms.ListView();
+            this.columnHeader1 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.columnHeader2 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.columnHeader3 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.btnAjouter = new System.Windows.Forms.Button();
             this.btnModifier = new System.Windows.Forms.Button();
             this.btnSupprimer = new System.Windows.Forms.Button();
             this.lblNomPrenom = new System.Windows.Forms.Label();
-            this.columnHeader1 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.columnHeader2 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.columnHeader3 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.SuspendLayout();
             // 
             // label1
@@ -65,6 +65,18 @@
             this.lvwAbsences.TabIndex = 1;
             this.lvwAbsences.UseCompatibleStateImageBehavior = false;
             this.lvwAbsences.View = System.Windows.Forms.View.Details;
+            // 
+            // columnHeader1
+            // 
+            this.columnHeader1.Text = "Date début";
+            // 
+            // columnHeader2
+            // 
+            this.columnHeader2.Text = "Date fin";
+            // 
+            // columnHeader3
+            // 
+            this.columnHeader3.Text = "Motif";
             // 
             // btnAjouter
             // 
@@ -102,18 +114,6 @@
             this.lblNomPrenom.TabIndex = 5;
             this.lblNomPrenom.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // columnHeader1
-            // 
-            this.columnHeader1.Text = "Date début";
-            // 
-            // columnHeader2
-            // 
-            this.columnHeader2.Text = "Date fin";
-            // 
-            // columnHeader3
-            // 
-            this.columnHeader3.Text = "Motif";
-            // 
             // FrmAbsences
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -127,6 +127,10 @@
             this.Controls.Add(this.label1);
             this.Name = "FrmAbsences";
             this.Text = "Gestion des absences";
+            this.Load += new System.EventHandler(this.FrmAbsences_Load);
+            this.btnAjouter.Click += new System.EventHandler(this.btnAjouter_Click);
+            this.btnModifier.Click += new System.EventHandler(this.btnModifier_Click);
+            this.btnSupprimer.Click += new System.EventHandler(this.btnSupprimer_Click);
             this.ResumeLayout(false);
             this.PerformLayout();
 

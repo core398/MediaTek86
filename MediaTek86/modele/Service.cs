@@ -3,7 +3,7 @@
     /// <summary>
     /// Classe représentant un service de la médiathèque
     /// </summary>
-    class Service
+    public class Service
     {
         /// <summary>
         /// Identifiant du service

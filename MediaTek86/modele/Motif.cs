@@ -3,7 +3,7 @@
     /// <summary>
     /// Classe représentant un motif d'absence
     /// </summary>
-    class Motif
+    public class Motif
     {
         /// <summary>
         /// Identifiant du motif

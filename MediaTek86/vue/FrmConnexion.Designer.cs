@@ -53,6 +53,7 @@
             this.btnConnexion.TabIndex = 1;
             this.btnConnexion.Text = "Se connecter";
             this.btnConnexion.UseVisualStyleBackColor = true;
+            this.btnConnexion.Click += new System.EventHandler(this.btnConnexion_Click);
             // 
             // txtLogin
             // 
@@ -103,7 +104,6 @@
             this.MinimizeBox = false;
             this.Name = "FrmConnexion";
             this.Text = "Connexion";
-            this.Load += new System.EventHandler(this.FrmConnexion_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
