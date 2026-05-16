@@ -12,17 +12,15 @@ Application de bureau en C# permettant au responsable de gérer :
 - Les absences du personnel
 
 ## MCD
-![MCD]<img width="467" height="451" alt="Capture d&#39;écran 2026-04-20 203509" src="https://github.com/user-attachments/assets/e1282903-24c9-4615-8f2c-5c65a4fb47fd" />
-
+![MCD](https://github.com/user-attachments/assets/e1282903-24c9-4615-8f2c-5c65a4fb47fd)
 
 ## Interfaces
-![Connexion]<img width="242" height="237" alt="Capture d&#39;écran 2026-04-20 200724" src="https://github.com/user-attachments/assets/ab38a1dc-1045-4f55-b070-18737236d384" />
-![Liste personnel]<img width="644" height="357" alt="Capture d&#39;écran 2026-04-20 200743" src="https://github.com/user-attachments/assets/350d46fd-d80c-4e16-a88d-f1b5137192e9" />
-![Gestion absences]<img width="532" height="295" alt="Capture d&#39;écran 2026-04-20 200818" src="https://github.com/user-attachments/assets/47224825-80f7-4989-990f-161384767f64" />
+![Connexion](https://github.com/user-attachments/assets/ab38a1dc-1045-4f55-b070-18737236d384)
+![Liste personnel](https://github.com/user-attachments/assets/350d46fd-d80c-4e16-a88d-f1b5137192e9)
+![Gestion absences](https://github.com/user-attachments/assets/47224825-80f7-4989-990f-161384767f64)
 
 ## Diagramme de paquetages
-![Diagramme paquetages]<img width="339" height="477" alt="Capture d&#39;écran 2026-04-20 200927" src="https://github.com/user-attachments/assets/4e8db41c-86a6-42cf-a04f-74ac730645cd" />
-
+![Diagramme paquetages](https://github.com/user-attachments/assets/4e8db41c-86a6-42cf-a04f-74ac730645cd)
 
 ## Étapes de construction
 
